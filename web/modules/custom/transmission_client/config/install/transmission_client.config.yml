@@ -1,0 +1,11 @@
+rpc:
+  ip: 'localhost'
+  port: 9091
+  path: '/transmission/rpc'
+  auth:
+    user: 'transmission'
+    pass: 'transmission'
+dependencies:
+  module:
+    - file_entity
+    - transmission_client

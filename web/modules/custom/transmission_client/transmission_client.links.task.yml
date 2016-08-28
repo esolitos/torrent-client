@@ -1,0 +1,22 @@
+# Torrent routing definition
+torrent.settings_tab:
+  route_name: torrent.settings
+  title: 'Settings'
+  base_route: torrent.settings
+
+entity.torrent.canonical:
+  route_name: entity.torrent.canonical
+  base_route: entity.torrent.canonical
+  title: 'View'
+
+entity.torrent.edit_form:
+  route_name: entity.torrent.edit_form
+  base_route: entity.torrent.canonical
+  title: Edit
+
+entity.torrent.delete_form:
+  route_name:  entity.torrent.delete_form
+  base_route:  entity.torrent.canonical
+  title: Delete
+  weight: 10
+

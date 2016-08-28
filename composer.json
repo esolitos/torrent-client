@@ -23,7 +23,9 @@
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
         "kleiram/transmission-php": "^1.0",
-        "drupal/adminimal_theme": "^8.1"
+        "drupal/adminimal_theme": "^8.1",
+        "christeredvartsen/php-bittorrent": "^1.1",
+        "drupal/file_entity": "^8.2@beta"
     },
     "require-dev": {
         "behat/mink": "~1.7",

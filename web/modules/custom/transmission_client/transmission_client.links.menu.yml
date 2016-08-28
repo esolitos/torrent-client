@@ -1,0 +1,22 @@
+# Transmission Client configuration form page
+transmission_client.configuration:
+  title: 'Transmission Configuration'
+  route_name: transmission_client.config
+  description: 'Configure Transmission Client'
+  parent: system.admin_config_system
+  weight: 100
+
+torrent.admin.structure.settings:
+  title: Torrent settings
+  description: 'Configure Torrent entities'
+  route_name: torrent.settings
+  parent: system.admin_structure
+# Torrent tracker menu items definition
+
+entity.torrent_tracker.collection:
+  title: 'Torrent tracker'
+  route_name: entity.torrent_tracker.collection
+  description: 'List Torrent tracker (bundles)'
+  parent: system.admin_structure
+  weight: 99
+

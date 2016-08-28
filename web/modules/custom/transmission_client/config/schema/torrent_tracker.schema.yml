@@ -1,0 +1,27 @@
+transmission_client.torrent_tracker.*:
+  type: config_entity
+  label: 'Torrent Tracker configuration'
+  mapping:
+    id:
+      type: string
+      label: 'ID'
+    label:
+      type: label
+      label: 'Tracker Name'
+    uuid:
+      type: string
+    is_private:
+      type: boolean
+      label: 'Private tracker'
+    is_active:
+      type: boolean
+      label: 'Active tracker (online)'
+    is_allowed:
+      type: boolean
+      label: 'Allowed on this site'
+    url:
+      type: uri
+      label: 'Homepage URL'
+    announce_url:
+      type: uri
+      label: 'Announce URL'

@@ -1,0 +1,10 @@
+services:
+
+  logger.channel.transmission_client:
+    parent: logger.channel_base
+    arguments: ['transmission_client']
+
+  transmission_client.rpc_client:
+    class: Drupal\transmission_client\TransmissionRpcClient
+    arguments: ["@config.factory", "@logger.channel.transmission_client"]
+

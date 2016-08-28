@@ -1,0 +1,24 @@
+administer transmission client:
+  title: 'Administer Transmission Client'
+  description: 'Allow full access the Transmission Client configuration and Torrent entities.'
+  restrict access: true
+
+add torrent entities:
+  title: 'Create new Torrent entities'
+
+administer torrent entities:
+  title: 'Administer Torrent entities'
+  description: 'Allow to access the administration form to configure Torrent entities.'
+  restrict access: true
+
+delete torrent entities:
+  title: 'Delete Torrent entities'
+
+edit torrent entities:
+  title: 'Edit Torrent entities'
+
+access torrent overview:
+  title: 'Access the Torrent overview page'
+
+view torrent entities:
+  title: 'View Torrent entities'

@@ -1,0 +1,6 @@
+transmission_client.config:
+  path: '/admin/config/system/transmission-client'
+  defaults:
+    _form: '\Drupal\transmission_client\Form\ConfigurationForm'
+  requirements:
+    _permission: 'administer transmission client'

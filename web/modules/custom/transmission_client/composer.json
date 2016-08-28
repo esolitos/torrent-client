@@ -1,0 +1,17 @@
+{
+  "name": "drupal/transmission_client",
+  "type": "drupal-module",
+  "description": "Connects to a Transmission Daemon and handles the torrents.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/transmission_client",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/transmission_client",
+    "source": "http://cgit.drupalcode.org/transmission_client"
+  },
+  "require": {
+    "kleiram/transmission-php": "^1.0",
+    "christeredvartsen/php-bittorrent": "^1.1"
+  }
+}

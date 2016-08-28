@@ -1,0 +1,7 @@
+name: Transmission Client
+type: module
+description: Connects to a Transmission Daemon and handles the torrents.
+core: 8.x
+package: BitTorrent
+dependencies:
+  - file_entity

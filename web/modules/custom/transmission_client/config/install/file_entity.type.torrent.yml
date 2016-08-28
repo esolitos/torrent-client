@@ -1,0 +1,10 @@
+id: bittorrent
+label: Torrent
+description: 'A <em>Torrent</em> file describes a p2p resource.'
+status: true
+mimetypes:
+  - 'application/x-bittorrent'
+dependencies:
+  module:
+    - file_entity
+    - transmission_client

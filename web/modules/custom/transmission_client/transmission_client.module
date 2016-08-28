@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains transmission_client.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function transmission_client_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the transmission_client module.
+    case 'help.page.transmission_client':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Connects to a Transmission Daemon and handles the torrents.') . '</p>';
+      return $output;
+
+    default:
+  }
+}

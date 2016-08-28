@@ -1,0 +1,13 @@
+entity.torrent.add_form:
+  route_name: entity.torrent.add_form
+  title: 'Add Torrent'
+  appears_on:
+    - entity.torrent.canonical
+
+entity.torrent_tracker.add_form:
+  route_name: 'entity.torrent_tracker.add_form'
+  title: 'Add Torrent tracker'
+  appears_on:
+    - entity.torrent_tracker.canonical
+    - entity.torrent_tracker.collection
+
